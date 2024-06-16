@@ -11,4 +11,8 @@ We’re using GitHub Actions to build our site with Jekyll. We created a .github
 We created a _layouts/default.html file to serve as a template for our pages. This file includes placeholders for the title and content of each page, as well as the MathJax script for rendering LaTeX syntax. We can customize this file to add a header or footer, include a navigation menu, or apply CSS styles.
 
 ## Creating a Blog Post with MathJax
-To create a blog post with a LaTeX math equation, create a new file in the _posts directory. The name of the file should follow the format YEAR-MONTH-DAY-title.md. Write the blog post in Markdown and include LaTeX math equations using the $$ syntax. To enable MathJax to render the equations, the MathJax script was added to the <head> section of the _layouts/default.html file.
+To display LaTeX math equations in a blog post, include the MathJax script at the end of the file. This will load MathJax from a CDN and enable it to render LaTeX syntax in the blog post.
+```html
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+```
