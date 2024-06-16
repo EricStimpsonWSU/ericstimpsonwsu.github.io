@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello World for Math"
+title: "hello-world-for-math"
 ---
 
 # Hello World for Math
