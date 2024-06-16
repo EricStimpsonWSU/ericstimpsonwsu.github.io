@@ -1,5 +1,5 @@
 ---
-title: "my-physics-journey"
+title: "My Physics Journey"
 ---
 My Physics Journey - on the road to becoming a professional physicist
 
