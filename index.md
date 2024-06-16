@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "my-physics-journey"
 ---
 My Physics Journey - on the road to becoming a professional physicist
