@@ -16,9 +16,3 @@ PFC is a model that describes how particular condensed matter systems evolve ove
 [Meet ‘goldene’: this gilded cousin of graphene is also one atom thick (nature.com)](https://www.nature.com/articles/d41586-024-01118-0){ data-preview }
 
 As I said, I'll have a lot more to say about PFC as it relates to what I've learned so far, but far more significantly as I learn more over the next few years.  So, I'll leave it here for the moment as I get back to work on more pressing tasks.  In my next few posts, I plan to give a brief overview of the programming involved in PFC and some of the mathematics that is involved.  Until then, cheers!
-
-## Posts
-
-{% for post in site.posts %}
-- {{ post.title }}
-{% endfor %}
