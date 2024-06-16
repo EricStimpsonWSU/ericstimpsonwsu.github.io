@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "hello-world-for-math"
+date: 2024-06-15
 ---
 
 # Hello World for Math
