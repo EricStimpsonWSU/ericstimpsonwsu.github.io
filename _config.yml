@@ -1,4 +1,26 @@
 theme: minima
 title: Journey of a New Research Physicist
 author: Eric Stimpson
-description: Starting from my first summer in grad school, I will document my journey to becoming a professional physicist. I will focus on topics related to my specific field of research and sprinkle in some personal thoughts.
+email: eric.stimpson@wayne.edu
+description: >- # this means to ignore newlines until "baseurl:"
+  Starting from my first summer in grad school, I will document my journey to becoming a professional physicist.
+  I will focus on topics related to my specific field of research and sprinkle in some personal thoughts.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
