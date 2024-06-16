@@ -14,7 +14,7 @@ plugins:
   - jekyll-feed
 
 # Markdown settings
-markdown: GFM
+markdown: kramdown #GFM should work but doesn't render math.  Something is wrong!
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
